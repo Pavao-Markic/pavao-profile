@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(230, 230, 230, 1.0);
+    font-family: Calibri,serif;
+}
+h1{
+    font-family: Arial,serif;
+    color: rgb(10, 10, 10, 1.0);
+}
+h2{
+    font-family: Arial,serif;
+    color: purple;
+}
+#emlv{
+    display: inline-block;
+    padding: 10px 20px; /* Ajustez le padding pour définir la taille du bouton */
+    background-color: blue; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    text-decoration: none;
+    border: 1px blue; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+    text-align: center;
+    font-weight: bold; /* Texte en gras */
+    cursor: pointer;
+}
+#emlv:hover{
+    background-color:skyblue ; /* Couleur de fond au survol */
+    border: 1px skyblue; /* Bordure au survol */
+}
+a {
+  color: orange;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover { 
+    color: orangered;
+    text-decoration: none; 
+}
+ 
+.image-size{
+    width:250px;
+    height:auto;
+    border-radius: 15%;
+}
+.container{
+    width: 700px;
+    margin:40px auto;
+}
+@media (max-width: 760px){
+    container{ 
+       width: 600px}
+}
+@media(max-width: 500px){
+    container{
+        width: 400px;
+    }
+}
+.card-white{
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.horizontal-list {  
+    list-style: none;
+    padding: 0 10px; 
+    display: flex;
+    justify-content: space-between;
+    }
+    
+
+.horizontal-list li{
+    margin-right: 115px;
+    margin-left: 115px;
+    border: 1px solid #ccc;
+       } 
+    
+
+#smiley{
+    width: 28px;
+    height: auto;
+}
